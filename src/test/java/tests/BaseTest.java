@@ -1,0 +1,28 @@
+package tests;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+
+public class BaseTest {
+    public WebDriver driver;
+
+    @BeforeClass
+    public void setup () {
+        System.setProperty("webdriver.chrome.driver", "F:\\IT\\chromedriver_win32\\chromedriver.exe");
+        driver = new ChromeDriver();
+
+        //Maximize Window
+        driver.manage().window().maximize();
+    }
+
+    @AfterClass
+    public void teardown () {
+        driver.quit();
+    }
+
+    public WebDriver getDriver() {
+        return driver;
+    }
+}
