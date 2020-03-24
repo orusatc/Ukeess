@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="23526" started-at="2020-03-24T15:59:17Z" finished-at="2020-03-24T15:59:41Z">
+  <suite name="Suite" duration-ms="23364" started-at="2020-03-24T16:26:56Z" finished-at="2020-03-24T16:27:19Z">
     <groups>
     </groups>
-    <test name="SendEmailTest" duration-ms="23526" started-at="2020-03-24T15:59:17Z" finished-at="2020-03-24T15:59:41Z">
+    <test name="SendEmailTest" duration-ms="23364" started-at="2020-03-24T16:26:56Z" finished-at="2020-03-24T16:27:19Z">
       <class name="tests.SendEmailTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:tests.SendEmailTest@16f7b4af]" name="setup" is-config="true" duration-ms="11420" started-at="2020-03-24T15:59:17Z" finished-at="2020-03-24T15:59:29Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.SendEmailTest@73c60324]" name="setup" is-config="true" duration-ms="11304" started-at="2020-03-24T16:26:56Z" finished-at="2020-03-24T16:27:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="checkingLoginToTheEmailAndSendingTheMail()[pri:0, instance:tests.SendEmailTest@16f7b4af]" name="checkingLoginToTheEmailAndSendingTheMail" duration-ms="11156" started-at="2020-03-24T15:59:29Z" description="Checking login to the email and sending the mail" finished-at="2020-03-24T15:59:40Z">
+        <test-method status="PASS" signature="checkingLoginToTheEmailAndSendingTheMail()[pri:0, instance:tests.SendEmailTest@73c60324]" name="checkingLoginToTheEmailAndSendingTheMail" duration-ms="11059" started-at="2020-03-24T16:27:07Z" description="Checking login to the email and sending the mail" finished-at="2020-03-24T16:27:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkingLoginToTheEmailAndSendingTheMail -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.SendEmailTest@16f7b4af]" name="teardown" is-config="true" duration-ms="723" started-at="2020-03-24T15:59:40Z" finished-at="2020-03-24T15:59:41Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.SendEmailTest@73c60324]" name="teardown" is-config="true" duration-ms="735" started-at="2020-03-24T16:27:18Z" finished-at="2020-03-24T16:27:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
