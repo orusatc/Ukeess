@@ -5,19 +5,17 @@ import utils.Listeners.TestListener;
 import org.testng.annotations.Test;
 import pages.UkrNetHomePage;
 import pages.LoginPage;
-import utilities.GenerateRandomData;
+import utils.GenerateRandomData;
 import io.qameta.allure.*;
 
 @Listeners({TestListener.class})
 @Epic("Functional test")
 @Feature("Login test")
-@Feature("Send email test")
 public class SendEmailTest extends BaseTest {
-
 
     GenerateRandomData generateRandomData = new GenerateRandomData();
     String login = "UAtestAPI@ukr.net";
-    String password = "qwerty1234567!@#$%^&";
+    String password = "";
     String receiver = generateRandomData.generateRandomString(5) + "@yopmail.com";
     String title = generateRandomData.generateRandomString(10);
     String emailBody = generateRandomData.generateRandomString(150);

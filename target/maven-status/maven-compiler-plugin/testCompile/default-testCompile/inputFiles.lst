@@ -2,6 +2,7 @@ F:\IT\UKEESStest\src\test\java\tests\BaseTest.java
 F:\IT\UKEESStest\src\test\java\tests\SendEmailTest.java
 F:\IT\UKEESStest\src\test\java\utils\ScreenShotRobot.java
 F:\IT\UKEESStest\src\test\java\utils\Listeners\TestListener.java
+F:\IT\UKEESStest\src\test\java\utils\GenerateRandomData.java
 F:\IT\UKEESStest\src\test\java\utils\Listeners\Retry.java
 F:\IT\UKEESStest\src\test\java\utils\ExtentReports\ExtentTestManager.java
 F:\IT\UKEESStest\src\test\java\utils\ExtentReports\ExtentManager.java

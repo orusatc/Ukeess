@@ -24,13 +24,12 @@ public class UkrNetHomePage extends BasePage {
     //*********Page Methods*********
 
     /**
-     *
      * @param receiver -- persons who gets the mail
-     * @param title -- email's title
-     * @param letter -- email's content
+     * @param title    -- email's title
+     * @param letter   -- email's content
      */
-     @Step("Creating and sending email to: {0} with title: {1} and body: {2}")
-    public void createLetter(String receiver, String title, String letter){
+    @Step("Creating and sending email to: {0} with title: {1} and body: {2}")
+    public void createLetter(String receiver, String title, String letter) {
         click(writeLetterButtonBy);
         writeText(toBy, receiver);
         writeText(titleBy, title);
@@ -45,13 +44,12 @@ public class UkrNetHomePage extends BasePage {
     }
 
     /**
-     *
-     * @param folderName -- name of folder in which is necessary to check email presence
+     * @param folderName   -- name of folder in which is necessary to check email presence
      * @param emailSubject -- subject of email which need to check
      * @return UkrNetHomePage;
      */
 
-     @Step("Checking presence email by subject: {1} in folder")
+    @Step("Checking presence email by subject: {1} in folder")
     public UkrNetHomePage checkingPresenceEmailInFolder(By folderName, String emailSubject, String message) {
         click(folderName);
         By titleBy = By.xpath("//a[contains(text(), '" + emailSubject + "')]");
@@ -59,9 +57,9 @@ public class UkrNetHomePage extends BasePage {
         return this;
     }
 
-     @Step("Checking presence email in Send folder")
+    @Step("Checking presence email in Send folder")
     public UkrNetHomePage checkingPresenceEmailInSentFolder(String emailSubject) {
-      return checkingPresenceEmailInFolder(sentFolder, emailSubject, "Email by subject: " + emailSubject + " is absent in folder: Sent" );
-          }
+        return checkingPresenceEmailInFolder(sentFolder, emailSubject, "Email by subject: " + emailSubject + " is absent in folder: Sent");
+    }
 
 }

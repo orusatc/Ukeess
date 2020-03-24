@@ -1,4 +1,4 @@
-package utilities;
+package utils;
 import java.security.SecureRandom;
 
 public class GenerateRandomData {
